@@ -1,16 +1,12 @@
-import React, {useState} from 'react';
+import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { FaBars, FaTimes } from 'react-icons/fa'
 
 function NavTabs() {
-
-  const [nav, setNav] = useState(false)
-  const handleNav = () => setNav(!nav)
-
-
   return (
   <div className="navbar navbar-expand-lg" role="nav bar">
-    <div className="container-fluid">
+    <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"></button>
+      <span class="navbar-toggler-icon"></span>
     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
       <li className="nav-item">
         <NavLink
@@ -40,7 +36,7 @@ function NavTabs() {
             isActive ? 'nav-link active' : 'nav-link'
           }
         >
-          Projects
+          Proje
         </NavLink>
       </li>
       <li className="nav-item">
@@ -56,14 +52,11 @@ function NavTabs() {
       </li>
       <li className="nav-item">
         <NavLink
-          to="my-react-portfolio/contact"
+          to="my-react-portfolio/contact/learn"
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'
           }
         >
-           <div className="hamburger" onClick={handleNav}>
-                    {!nav ? (<FaBars className='icon' />) : (<FaTimes className='icon' />)}
-                </div>
         </NavLink>
       </li>
     </ul>
