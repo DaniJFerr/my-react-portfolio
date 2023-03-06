@@ -5,28 +5,13 @@ import Learn from './Learn';
 function Contact(props) {
   return (
     <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
-      <Link to="learn" role="button" className="btn btn-link">
-        Learn More
-      </Link>
-      <Link to="contact" role="button" className="btn btn-link">
-        Learn Less
-      </Link>
+      <div class="contact-me">
+      <h1>Get In Touch</h1>
+      <h3>My portfolio is glad to have you here!</h3>
+      <p>For more information about my work, please visit the following links.</p>
+      <button type="button" class="btn btn-primary btn-lg"><a href="mailto:danweb.work.station@gmail.com">CONTACT ME</a></button>     
+    </div>
       <Routes>
-        <Route path="learn" element={<Learn />} />
       </Routes>
     </div>
   );

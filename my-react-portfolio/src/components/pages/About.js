@@ -3,15 +3,24 @@ import React from "react";
 function About() {
   return (
     <div>
-      <h1>About Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui
-        mauris, ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus
-        porta. Nam quis arcu non lectus tincidunt fermentum. Suspendisse aliquet orci porta quam
-        semper imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed
-        rhoncus mollis diam, sit amet facilisis lectus blandit at.
+    <div class="profile">
+      <img class="myimg"src="images/myfoto-modified.png" alt=""></img>
+      <h1>Hello.</h1>
+      <p>My name is Daniel, I'm a Junior Web Developer passionate for technologies,
+         games, hardware and software engineering. I've been studying programming languages since 2010,
+        researching the web industry and the evolution of the big techs .
       </p>
     </div>
+
+    <div class="skills">
+      <h2>My Skills.</h2>
+       <div class="skill-row">
+       <img class="large" src="images/large-modified.png" alt=""></img>
+       <h3>Core qualifications</h3>
+      <p>I have experience writing web applications and dynamic Web sites using HTML, CSS, JAVASCRIPT, REACT, BOOTSTRAP, NODEJS, NPM, EXPRESSJS, EJS, GIT, GITHUB, HYPERTERMINAL, SQL, API).</p>
+     </div>
+    </div>
+  </div>
   );
 }
 
