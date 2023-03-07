@@ -10,6 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
+
   return (
     <Router>
       <div className='container'>
@@ -20,7 +21,7 @@ function App() {
           {/* Define a default route that will render the Home component */}
           <Route path="my-react-portfolio/" element={<Home />} />
           <Route path="my-react-portfolio/about" element={<About />} />
-          <Route path="my-react-portfolio/Project" element={<Projects />} />
+          <Route path="my-react-portfolio/Projects" element={<Projects />} />
           {/* Define a route that will have descendant routes */}
           <Route path="my-react-portfolio/contact/*" element={<Contact />} />
         </Routes>
@@ -28,6 +29,7 @@ function App() {
       </div>
     </Router>
   );
+  
 }
 
 export default App;

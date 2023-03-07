@@ -1,12 +1,13 @@
 import React from 'react';
+import Container from 'react-bootstrap/Container';
+import Navbar from 'react-bootstrap/Navbar';
 import { NavLink } from 'react-router-dom';
 
 function NavTabs() {
   return (
-  <div className="navbar navbar-expand-lg" role="nav bar">
-    <div class="container-fluid">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"></button>
-      <span class="navbar-toggler-icon"></span>
+    <Navbar expand="lg">
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="responsive-navbar-nav">
     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
       <li className="nav-item">
         <NavLink
@@ -31,12 +32,12 @@ function NavTabs() {
       </li>
       <li className="nav-item">
         <NavLink
-          to="my-react-portfolio/blog"
+          to="my-react-portfolio/Projects"
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'
           }
         >
-          Proje
+          Projects
         </NavLink>
       </li>
       <li className="nav-item">
@@ -50,19 +51,11 @@ function NavTabs() {
           Contact
         </NavLink>
       </li>
-      <li className="nav-item">
-        <NavLink
-          to="my-react-portfolio/contact/learn"
-          className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link'
-          }
-        >
-        </NavLink>
-      </li>
     </ul>
-    </div>
-  </div>
+    </Navbar.Collapse>
+  </Navbar>
   );
+
 }
 
 

@@ -11,3 +11,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+p {
+  text-align: start;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  color: grey;
+  font-weight: bold;
+}
+
+
+.pro{
+  text-decoration: underline;
+}
+
+h1{
+  color: #7FBCD2;
+  font-size: 2rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Montserrat';
+  /* line-height: 2; */
+  font-weight: bolder;
+}
+
+h2 {
+  color: #7FBCD2;
+  font-family: 'Montserrat';
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+h3{
+  color: #7FBCD2;
+  font-family: 'Montserrat';
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px 0px;
+  }
