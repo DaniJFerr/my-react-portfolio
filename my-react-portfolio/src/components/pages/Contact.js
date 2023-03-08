@@ -1,6 +1,6 @@
 import React from 'react';
 
-const PDF_FILE_URL='https://github.com/DaniJFerr/my-react-portfolio/blob/gh-pages/CV_2023.pdf';
+const PDF_FILE_URL='https://github.com/DaniJFerr/my-react-portfolio/CV_2023.pdf';
 function Contact() {
 
  const downloadFileAtURL=(url)=>{
