@@ -2,11 +2,13 @@
   width: auto;
   margin: 0;
   text-align: center;
-  font-family: 'Silkscreen', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
   background-color: #e0eff5;
 }
 
 .container{
+
   background-color: white;
   padding: 0px 0px !important;
   background: rgb(199,234,241);
@@ -20,12 +22,13 @@ p {
   font-family: 'Montserrat';
   font-size: 20px;
   color: grey;
-  font-weight: bold;
+  font-weight: 200;
 }
-
 
 .pro{
   text-decoration: underline;
+  font-family: 'Montserrat';
+  font-weight: 200;
 }
 
 h1{
@@ -34,105 +37,51 @@ h1{
   margin: 50px auto 0 auto;
   font-family: 'Montserrat';
   line-height: 2;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 h2 {
   color: #7FBCD2;
   font-family: 'Montserrat';
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 200;
 }
 
 h3{
   color: #7FBCD2;
   font-family: 'Montserrat';
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 300;
   padding: 10px 0px;
   }
 
-hr{
-  border-style:none;
-  border-top-style: dotted;
-  border-color: #9ED2C6;
-  border-width: 7px;
-  width: 3%;
-  margin: 20px 920px;
-}
-
-.responsive-navbar-nav{
-  position: absolute;
-  justify-content: center;
-  width: 80%;
-  margin: 0 auto;
-  padding: 50px 0;
-  background-color: transparent;
-  color: transparent;
-}
-
-.responsive-navbar-nav ul li{
-  align-content: center;
-}
-
-.navbar ul li a {
-display: inline-block;
-text-decoration: none;
-color: hsl(236, 13%, 42%);
-text-transform: uppercase;
-margin: 0px 12px;
-}
-
-.navbar ul li a {
+.navbar{
   position: relative;
-  }
+  margin: auto 20px;
+  list-style-type: none;  
+  height: 70PX auto;
+  list-style-type: none; 
+} 
 
-.navbar ul li a:after {
-position: absolute;
-bottom: 0;
-left: 0;
-right: 0;
-margin: auto;
-width: 0%;
-content: '.';
-color: transparent;
-background: rgb(44, 44, 44);
-height: 1px;
-}
+.navbar p{
+ font-weight: 400;
+} 
 
-.navbar ul li a:hover:after {
-width: 100%;
-}
-
-.navbar ul li a {
-transition: all 0.5s;
-}
-
-.navbar ul li a:after {
-text-align: left;
-content: '.';
-margin: 0;
-opacity: 0;
-
-}
-.navbar ul li a:hover {
+.navbar p:hover {
 color: hsl(206, 85%, 63%);
+font-weight: 500;
 z-index: 1;
 }
-
-.navbar ul li a:hover:after {
-z-index: -10;
-animation:  1s forwards;
--webkit-animation: fill 1s forwards;
--moz-animation: fill 1s forwards;
-opacity: 1;
-} 
 
 .top-container{
   background: rgb(199,234,241);
   background: linear-gradient(32deg, rgba(199,234,241,1) 0%, rgba(253,255,237,1) 100%);
+  border-style: none;
 }
 
+.containerAbout{
+  margin-top: 0px;
+}
 
 /*-- top container img--*/
 
@@ -160,30 +109,42 @@ opacity: 1;
 }
 
 .profile{
-  width: 50%;
-  margin: 100px auto 100px auto;
+  width: 700px;
+  margin: 50px auto 100px auto;
+}
+
+.profile p{
+  text-align: justify;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  color: grey;
+  font-weight: 200;
 }
 
 .large{
   position: relative;
-  width: 300px;
-  float: left;
-  padding: 0px;
-  margin: 5px 50px;
+  width: 230px;
+  float: right;
+  padding: 5px 10px;
+  margin: 5px 20px !important;
 }
 
 .project{
   position: relative;
-  width: 300px;
+  width: 250px;
   float: right;
-  padding: 0px 10px;
-  margin: 5px 50px;
+  margin: 20px auto;
+  padding-top: 20px;
 }
 
 /*-- middle container content--*/
 
+.containerProjects{
+  margin: 80px auto;
+}
+
 .carousel-inner{
-  background-color: #ffffff;
+  margin: 50px auto;
 }
 
 
@@ -193,42 +154,41 @@ opacity: 1;
 
 .carousel-item{
 position:relative;
+margin: 100px auto;
+
 }
 
-
-.skills {
+.skills{
+  height: auto !important;
   position: relative;
-  text-align: center;
+  padding: 0px 0px !important;
+  margin: 0px auto;
 }
 
 .skills h3{
-  padding-top: 40px;
+  padding: 10px auto;
+  font-weight: 300;
 }
 
 .skill-row{
   position: relative;
-  width: 900px;
-  height: 500px;
-  padding: 0px 0px;
-  margin: 30px auto 80px auto;
+  width: 700px;
+  height: 300px;
+  margin: 20px auto 20px auto;
   text-align: left;
 }
 
 .skill-row p{
+  width: 500px;
+  padding: 0px 0px;
   text-align: left;
   font-family: 'Montserrat';
   font-size: 20px;
   color: grey;
-  font-weight: bold;
+  font-weight:200;
 }
 
-.profile p{
-  text-align: justify;
-  font-family: 'Montserrat';
-  font-size: 20px;
-  color: grey;
-  font-weight: bold;
-}
+
 
 /*-- botton container content--*/
 
@@ -246,7 +206,7 @@ position:relative;
   }
 
 .contact-me {
-  margin: 30px auto 30px auto;
+  margin: 230px auto 30px auto;
 }
 
 .contact-me p{
@@ -254,25 +214,39 @@ position:relative;
 }
 
 .btn{
-  margin: 20px auto;
+  margin: 20px 10px;
   background-image: linear-gradient(top, #a1f0de, #9ED2C6);
   background-image: linear-gradient(to bottom, #a1f0de, #9ED2C6);
-  border: 0ch;
+  border: none;
+  text-decoration: none;
+  transition: 500ms;
+  transform-origin: center;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
-.btn a{
-  color: #ffffff;
+.btn p{
+  color: #fff;
   font-family: 'Montserrat';
   text-decoration: none;
   font-weight: bold;
+  margin: 0px 0px;
+}
+
+.btn a {
+  text-decoration: none;
 }
 
 .btn:hover {
-  transform: scale(1.2);
-  transition: 500ms  ease-in-out;
+  transform: scale(1.1);
+  transition: 500ms;
   text-decoration: none;
   background-image: -webkit-linear-gradient(top, #25f7e9, #34d9d9);
   background-image: linear-gradient(to bottom, #25f7e9, #34d9d9);
+  color: #fff;
+  border: none;
 }
 
 /*-- footer container content--*/
@@ -283,17 +257,24 @@ position:relative;
   color: #ffffff;
 }
 
-.footer-link img{
-  width: 50px;
-}
-
-.footer-link img:hover{
-  transform: scale(1.2);
+.footer-link i{
   transition: 500ms;
+  transform-origin: center;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
-.footer-link{
-  width: 10px;
+.footer-link i:hover{
+  transform:  scale(1.1);
+  transition: 500ms;
+  color: #fff;
+}
+
+.fa-github, 
+.fa-linkedin{
+ font-size: 50px;
   color: #EAF6F6;
   text-decoration: none;
   padding: 20px;
@@ -337,29 +318,32 @@ position:relative;
    }
 }
 
-@keyframes navbar {
-  0% {
-    width: 0%;
-    height: 1px;
-  }
-  50% {
-    width: 100%;
-    height: 1px;
-  }
-  100% {
-    width: 100%;
-    height: 100%;
-    background: #333;
-  }
-}
-
 
 @media (max-width: 900px){
+
 
 .container{
   margin: 0%;
   padding: 0%;
 }
+
+.carousel-inner{
+  height: 600px;
+}
+
+.containerProjects{
+  margin: 20px auto;
+}
+
+.containerAbout{
+  height: 1200px;
+}
+
+.top-container{
+  height: 750px;
+  margin-bottom: 0px auto;
+}
+
 
 .top-cloud{
   width: 280px;
@@ -367,55 +351,72 @@ position:relative;
   left: 100px;
 }
 
+.botton-cloud{
+  width: 280px;
+  position: relative;
+  right: 120px;
+}
+
 .mountain{
-    display: flex;
-    margin: 0px;
+ height: 300px;
+
+}
+
+.bottom-container{
+   position: relative;
+    margin-top: -10px;
     padding: 0px;
    }
 
   .profile {
-    text-align: center;
     width: auto;
+    height: 650px;
     margin: 50px auto;
     padding: 0px 30px;
   }
 
   .profile p{
-    text-align: center;
+    text-align: left;
   }
 
   .project{
-    width: 80%;
+    width: 300px;
     float: center;
-    margin: 0px 30px;
+    margin: 5px 30px;
   }
 
   .large{
-    width: 80%;
+    width: 300px ;
+    margin: auto 90px !important;
+    align-self: center  ;
+  }
+
+  .skill-row {
+    width: 420px;
+    height: 700px;
     float: center;
     margin: 0px 30px;
   }
 
-  .skill-row {
-    width: 70%;
-    height: 550px;
-    margin: 50px auto 100px auto;
-    text-align: center;
-    line-height: 2;
-    padding: 10px 10px;
-  }
-
   .skill-row img{
-    padding-bottom: 50px;
+    width: 230px;
+    margin: auto 80px;
+    padding-bottom: 20px;
   }
 
   .skill-row p{
-    text-align: center; 
+    text-align: left;
+    width: 420px; 
+  }
+
+  .skill-row h3{
+    text-align: center;
   }
 
   .skills{
   padding-bottom: 50px;
-  margin: auto;
+  margin: 50px auto;
+  padding: 0px 30px;
   }
 
   .skills img{
@@ -426,5 +427,4 @@ position:relative;
     font-size: 1rem;
 
   }
-
 }
