@@ -1,21 +1,21 @@
 import React from 'react';
 
-const PDF_FILE_URL='https://danijferr.github.io/my-react-portfolio/blob/gh-pages/CV_2023.pdf';
+const PDF_FILE_URL='https://danijferr.github.io/my-react-portfolio/CV_2023.pdf';
 function Contact() {
 
  const downloadFileAtURL=(url)=>{
-  fetch(url)
-  .then((resp) => resp.json())
-  .then((blob) =>{
-  const blobURL = window.URL.createObjectURL( new Blob([blob]))
+  // fetch(url)
+  // .then((resp) => resp.json())
+  // .then((blob) =>{
+  // const blobURL = window.URL.createObjectURL( new Blob([blob]))
   const fileName = url.split('/').pop();
   const link = document.createElement('a');
-  link.href = blobURL;
+  link.href = url;
   link.setAttribute('download', fileName);
   document.body.appendChild(link);
   link.click();
   link.remove();
-  });
+
  };
 
   return (
