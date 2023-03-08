@@ -214,10 +214,11 @@ margin: 100px auto;
 }
 
 .btn{
-  margin: 20px auto;
+  margin: 20px 10px;
   background-image: linear-gradient(top, #a1f0de, #9ED2C6);
   background-image: linear-gradient(to bottom, #a1f0de, #9ED2C6);
   border: none;
+  text-decoration: none;
   transition: 500ms;
   transform-origin: center;
   -webkit-transition: all 0.2s ease-in-out;
@@ -226,11 +227,16 @@ margin: 100px auto;
   transition: all 0.2s ease-in-out;
 }
 
-.btn a{
-  color: #ffffff;
+.btn p{
+  color: #fff;
   font-family: 'Montserrat';
   text-decoration: none;
   font-weight: bold;
+  margin: 0px 0px;
+}
+
+.btn a {
+  text-decoration: none;
 }
 
 .btn:hover {
@@ -239,6 +245,7 @@ margin: 100px auto;
   text-decoration: none;
   background-image: -webkit-linear-gradient(top, #25f7e9, #34d9d9);
   background-image: linear-gradient(to bottom, #25f7e9, #34d9d9);
+  color: #fff;
   border: none;
 }
 
@@ -329,7 +336,7 @@ margin: 100px auto;
 }
 
 .containerAbout{
-  height: 1100px;
+  height: 1200px;
 }
 
 .top-container{
@@ -363,29 +370,30 @@ margin: 100px auto;
 
   .profile {
     width: auto;
+    height: 650px;
     margin: 50px auto;
     padding: 0px 30px;
   }
 
   .profile p{
-    text-align: justify;
+    text-align: left;
   }
 
   .project{
     width: 300px;
     float: center;
     margin: 5px 30px;
-  
   }
 
   .large{
-    width: 80%;
-    float: center;
-    margin: 0px 30px;
+    width: 300px ;
+    margin: auto 90px !important;
+    align-self: center  ;
   }
 
   .skill-row {
-    width: 80%;
+    width: 420px;
+    height: 700px;
     float: center;
     margin: 0px 30px;
   }
@@ -397,12 +405,18 @@ margin: 100px auto;
   }
 
   .skill-row p{
-    text-align: justify; 
+    text-align: left;
+    width: 420px; 
+  }
+
+  .skill-row h3{
+    text-align: center;
   }
 
   .skills{
   padding-bottom: 50px;
-  margin: auto;
+  margin: 50px auto;
+  padding: 0px 30px;
   }
 
   .skills img{

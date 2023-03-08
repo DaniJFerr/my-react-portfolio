@@ -6,7 +6,7 @@ function About() {
     <div className="containerAbout">
   
     <div class="profile">
-      <img class="myimg"src="images/myfoto-modified.png" alt=""></img>
+      <img class="myimg"src="images/myfoto.png" alt=""></img>
       <h1>Hello.</h1>
       <p>My name is Daniel,a Web Developer with a background in logistics, 
         investing in IT training since 2010, coding Bootcamp and earning a Certificate in Full Stack Web Development. 
@@ -21,7 +21,7 @@ function About() {
        <div class="skill-row">
        <img class="large" src="images/large-modified.png" alt=""></img>
        <h3>Core qualifications</h3>
-      <p>I have experience writing web applications and dynamic Web sites using HTML, CSS, JAVASCRIPT, REACT, BOOTSTRAP, NODEJS, NPM, EXPRESSJS, EJS, GIT, GITHUB, HYPERTERMINAL, SQL, API).</p>
+      <p>I have experience writing web applications and dynamic Web sites using Html, Css, JavaScript, React, bootstrap, Node.js, NPM, Express.js, EJS, Git, gitHub, noSQL MongoDB, API.</p>
      </div>
     </div>
 

@@ -35,17 +35,17 @@ function Projects() {
 
           <div class="carousel-item">
           <section class="skill-row d-block">
-          <a  href="https://danijferreira.github.io/Web-dropdown-navigation-main/"><img class="project" src="images/Snap-page.png" alt=""></img></a>
-          <h3>Snap</h3>
-          <p>This Website was created as a challenge for dropdown navigation bar using html, css and bootstrap.</p>
+          <a  href="https://danijferr.github.io/Team_Profile_Generator/"><img class="project" src="images/Team_profile.png" alt=""></img></a>
+          <h3>Team Profile Generator</h3>
+          <p>Is an application that dynamically generates and display a team summaries profile from a user's input</p>
           </section>
           </div>
 
           <div class="carousel-item">
             <section class="skill-row d-block">
-            <a  href="https://vast-sands-83656.herokuapp.com/"><img class="project" src="images/newsletter.png" alt=""></img></a>
-            <h3>Newsletter</h3>
-            <p>This is a Newsletter registation Website created using html, css, bootstrap, javascript, nodejs ,ejs and heroku cloud server.</p>
+            <a  href="https://danijferreira.github.io/keeper-web-app/"><img class="project" src="images/keeper.png" alt=""></img></a>
+            <h3>Kepper App</h3>
+            <p>Is an application that dynamically generates and display notes from user's input.</p>
             </section>
           </div>
 
