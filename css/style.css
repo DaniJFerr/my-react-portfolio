@@ -103,8 +103,8 @@ z-index: 1;
 
 /*-- middle container img--*/
 
-.myimg{
-  width: 200px;
+.myImg{
+  width: 200px !important;
   margin: 10px;
 }
 
