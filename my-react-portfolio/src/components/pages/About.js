@@ -6,7 +6,7 @@ function About() {
     <div className="containerAbout">
   
     <div class="profile">
-      <img class="myimg"src="images/myfoto.png" alt=""></img>
+      <img class="myImg"src="images/Myfoto.png" alt=""></img>
       <h1>Hello.</h1>
       <p>My name is Daniel,a Web Developer with a background in logistics, 
         investing in IT training since 2010, coding Bootcamp and earning a Certificate in Full Stack Web Development. 
