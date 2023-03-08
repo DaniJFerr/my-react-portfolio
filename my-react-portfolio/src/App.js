@@ -6,6 +6,7 @@ import About from './components/pages/About';
 import Projects from './components/pages/Projects';
 import Contact from './components/pages/Contact';
 import Footer from './components/Footer';
+import BackToTopButton from './components/pages/BackToTopButton';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -26,6 +27,7 @@ function App() {
           <Route path="my-react-portfolio/contact/*" element={<Contact />} />
         </Routes>
         <Footer />
+        <BackToTopButton/>
       </div>
     </Router>
   );

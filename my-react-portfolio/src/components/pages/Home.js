@@ -1,4 +1,5 @@
 import React from "react";
+import BackToTopButton from "./BackToTopButton";
 
 function Home() {
   return (
@@ -8,6 +9,7 @@ function Home() {
     <h2>a <span class="pro">pro</span>grammer.</h2>
     <img class="botton-cloud"src="images/cloud.png" alt="cloud-img"></img>
     <img class="mountain"src="images/mountain.png" alt="mountain-img"></img>
+    <BackToTopButton /> 
     </div>
   );
 }

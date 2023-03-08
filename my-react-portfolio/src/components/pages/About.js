@@ -1,14 +1,18 @@
 import React from "react";
+import BackToTopButton from "./BackToTopButton";
 
 function About() {
   return (
-    <div>
+    <div className="containerAbout">
+  
     <div class="profile">
       <img class="myimg"src="images/myfoto-modified.png" alt=""></img>
       <h1>Hello.</h1>
-      <p>My name is Daniel, I'm a Junior Web Developer passionate for technologies,
-         games, hardware and software engineering. I've been studying programming languages since 2010,
-        researching the web industry and the evolution of the big techs .
+      <p>My name is Daniel,a Web Developer with a background in logistics, 
+        investing in IT training since 2010, coding Bootcamp and earning a Certificate in Full Stack Web Development. 
+        Innovative problem-solver passionate about developing web apps; focused on responsive design and development. 
+        Strengths in creativity, teamwork, and building projects from ideation to execution, adept in all stages of advanced web development.
+        Ability to learn and adapt to complex roles and tasks in a fast-paced environment.
       </p>
     </div>
 
@@ -20,7 +24,10 @@ function About() {
       <p>I have experience writing web applications and dynamic Web sites using HTML, CSS, JAVASCRIPT, REACT, BOOTSTRAP, NODEJS, NPM, EXPRESSJS, EJS, GIT, GITHUB, HYPERTERMINAL, SQL, API).</p>
      </div>
     </div>
+
+    <BackToTopButton/>
   </div>
+
   );
 }
 

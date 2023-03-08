@@ -1,15 +1,16 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav';
 import { NavLink } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function NavTabs() {
   return (
-    <Navbar expand="lg">
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="responsive-navbar-nav">
-    <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-      <li className="nav-item">
+  <Navbar  expand="lg">
+    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+    <Navbar.Collapse id="basic-navbar-nav">
+      <Nav className="me-auto">
+  
         <NavLink
           to="my-react-portfolio/"
           end
@@ -17,30 +18,27 @@ function NavTabs() {
             isActive ? 'nav-link active' : 'nav-link'
           }
         >
-          Home
+          <p>Home</p>
         </NavLink>
-      </li>
-      <li className="nav-item">
+      
         <NavLink
-          to="my-react-portfolio/about"
-          className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link'
-          }
+            to="my-react-portfolio/about"
+            className={({ isActive }) =>
+              isActive ? 'nav-link active' : 'nav-link'
+            }
         >
-          About
+          <p>About</p>
         </NavLink>
-      </li>
-      <li className="nav-item">
+    
         <NavLink
           to="my-react-portfolio/Projects"
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'
           }
         >
-          Projects
+          <p>Projects</p>
         </NavLink>
-      </li>
-      <li className="nav-item">
+  
         <NavLink
           to="my-react-portfolio/contact"
           end
@@ -48,16 +46,14 @@ function NavTabs() {
             isActive ? 'nav-link active' : 'nav-link'
           }
         >
-          Contact
+          <p>Contact</p>
         </NavLink>
-      </li>
-    </ul>
+   
+      </Nav>
     </Navbar.Collapse>
-  </Navbar>
-  );
-
+</Navbar>
+);
 }
-
 
 
 export default NavTabs;

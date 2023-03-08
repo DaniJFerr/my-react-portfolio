@@ -1,13 +1,18 @@
-import React from 'react';
-
+import {React } from 'react';
+import BackToTopButton from './pages/BackToTopButton';
 
 function Footer(){
 
-   return <div class="bottom-container">
-   <a class="footer-link" href="https://github.com/DaniJFerreira"><img src="images/github.png" alt=""></img></a>
+   return (
+   <div class="bottom-container">
+  <BackToTopButton/>
+   <a class="footer-link" href="https://github.com/DaniJFerreira"><i class="fa-brands fa-github"></i></a>
+   <a class="footer-link" href="https://linkedin.com/in/daniel-ferreira-166741225"><i class="fa-brands fa-linkedin"></i></a>
 
-   <p class="copyright">© 2022 Daniel Ferreira @ Web Development Project.</p>
+   <p class="copyright">© 2023 Daniel Ferreira <i class="fa-brands fa-react"></i> Web Development Project.</p>   
  </div>
+
+   )
 }
 
 
