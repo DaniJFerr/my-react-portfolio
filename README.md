@@ -2,7 +2,7 @@
 
 ## Description
 
-An interactive portfolio using react, html, and CSS that includes my recent projects, contact information, and a CV resume.
+The project is an interactive portfolio using REACT, HTML, CSS and BOOTSTRAP that includes my recent projects, contact information, and a CV resume.
 - The project was created to practice and improve my skills using react.js, route and gh-pages.
 - As a result, I have learned how to create an react app, how to install npm modules, how implement React State and Effects hooks methods.
 
