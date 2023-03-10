@@ -44,7 +44,7 @@ npm run deploy
 
 ## Usage
 
-The project display the summries team profile on index.html
+The project Home page view:
 
 ![my_react_portifolio](https://user-images.githubusercontent.com/111529943/223882449-d9db5bc0-89d9-4612-8736-3b4bccc0aeb9.png)
    
